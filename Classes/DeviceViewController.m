@@ -3,13 +3,15 @@
 //  yaia
 //
 //  Created by Kevin Munc on 10/10/10.
-//  Copyright Nationwide 2010. All rights reserved.
+//  Copyright 2010. Creative Commons Attribution Non-Commercial.
 //
 
 #import "DeviceViewController.h"
 
 
 @implementation DeviceViewController
+
+@synthesize udid = _udid;
 
 
 /*
@@ -28,12 +30,11 @@
 }
 */
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.udid.text = [UIDevice currentDevice].uniqueIdentifier;
 }
-*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -57,6 +58,7 @@
 
 
 - (void)dealloc {
+    [_udid release];
     [super dealloc];
 }
 

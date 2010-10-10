@@ -3,7 +3,7 @@
 //  yaia
 //
 //  Created by Kevin Munc on 10/10/10.
-//  Copyright Nationwide 2010. All rights reserved.
+//  Copyright 2010. Creative Commons Attribution Non-Commercial.
 //
 
 #import <UIKit/UIKit.h>
