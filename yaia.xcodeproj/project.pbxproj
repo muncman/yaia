@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* yaiaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* yaiaAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* DeviceViewController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* MemoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* MemoryView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		38AC7F8D1262255C00BEA219 /* DeviceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AC7F8C1262255C00BEA219 /* DeviceView.xib */; };
+		38AC7F8F1262258800BEA219 /* BatteryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AC7F8E1262258800BEA219 /* BatteryView.xib */; };
+		38AC7F92126225BA00BEA219 /* DiskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AC7F91126225BA00BEA219 /* DiskView.xib */; };
+		38AC7F94126225C900BEA219 /* FontsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AC7F93126225C900BEA219 /* FontsView.xib */; };
+		38AC80C3126242B800BEA219 /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AC80B9126242B800BEA219 /* battery.png */; };
+		38AC80C4126242B800BEA219 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AC80BA126242B800BEA219 /* box.png */; };
+		38AC80C5126242B800BEA219 /* chart_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AC80BB126242B800BEA219 /* chart_bar.png */; };
+		38AC80C6126242B800BEA219 /* clipboard_copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AC80BC126242B800BEA219 /* clipboard_copy.png */; };
+		38AC80C7126242B800BEA219 /* cog.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AC80BD126242B800BEA219 /* cog.png */; };
+		38AC80C8126242B800BEA219 /* db.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AC80BE126242B800BEA219 /* db.png */; };
+		38AC80C9126242B800BEA219 /* font_italic.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AC80BF126242B800BEA219 /* font_italic.png */; };
+		38AC80CA126242B800BEA219 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AC80C0126242B800BEA219 /* info.png */; };
+		38AC80CB126242B800BEA219 /* mail_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AC80C1126242B800BEA219 /* mail_2.png */; };
+		38AC80CC126242B800BEA219 /* text_letter_t.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AC80C2126242B800BEA219 /* text_letter_t.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* yaiaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaiaAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* yaiaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yaiaAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* yaia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yaia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* MemoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoryView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* yaia_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaia_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38AC7F8C1262255C00BEA219 /* DeviceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceView.xib; sourceTree = "<group>"; };
+		38AC7F8E1262258800BEA219 /* BatteryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BatteryView.xib; sourceTree = "<group>"; };
+		38AC7F91126225BA00BEA219 /* DiskView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiskView.xib; sourceTree = "<group>"; };
+		38AC7F93126225C900BEA219 /* FontsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontsView.xib; sourceTree = "<group>"; };
+		38AC80B9126242B800BEA219 /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery.png; sourceTree = "<group>"; };
+		38AC80BA126242B800BEA219 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		38AC80BB126242B800BEA219 /* chart_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chart_bar.png; sourceTree = "<group>"; };
+		38AC80BC126242B800BEA219 /* clipboard_copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clipboard_copy.png; sourceTree = "<group>"; };
+		38AC80BD126242B800BEA219 /* cog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cog.png; sourceTree = "<group>"; };
+		38AC80BE126242B800BEA219 /* db.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db.png; sourceTree = "<group>"; };
+		38AC80BF126242B800BEA219 /* font_italic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_italic.png; sourceTree = "<group>"; };
+		38AC80C0126242B800BEA219 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		38AC80C1126242B800BEA219 /* mail_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail_2.png; sourceTree = "<group>"; };
+		38AC80C2126242B800BEA219 /* text_letter_t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_letter_t.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* yaia-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "yaia-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28216C950DB411BC00E5133A /* DeviceViewController.h */,
+				28216C960DB411BC00E5133A /* DeviceViewController.m */,
+				1D3623240D0F684500981E51 /* yaiaAppDelegate.h */,
+				1D3623250D0F684500981E51 /* yaiaAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* yaia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* yaia */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = yaia;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* yaia_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38AC7FD71262338A00BEA219 /* Images */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				38AC7F8C1262255C00BEA219 /* DeviceView.xib */,
+				282CCBFD0DB6C98000C4EA27 /* MemoryView.xib */,
+				38AC7F8E1262258800BEA219 /* BatteryView.xib */,
+				38AC7F91126225BA00BEA219 /* DiskView.xib */,
+				38AC7F93126225C900BEA219 /* FontsView.xib */,
+				8D1107310486CEB800E47090 /* yaia-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38AC7FD71262338A00BEA219 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				38AC80BA126242B800BEA219 /* box.png */,
+				38AC80BB126242B800BEA219 /* chart_bar.png */,
+				38AC80B9126242B800BEA219 /* battery.png */,
+				38AC80BE126242B800BEA219 /* db.png */,
+				38AC80C2126242B800BEA219 /* text_letter_t.png */,
+				38AC80BC126242B800BEA219 /* clipboard_copy.png */,
+				38AC80C1126242B800BEA219 /* mail_2.png */,
+				38AC80BF126242B800BEA219 /* font_italic.png */,
+				38AC80C0126242B800BEA219 /* info.png */,
+				38AC80BD126242B800BEA219 /* cog.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* yaia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "yaia" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yaia;
+			productName = yaia;
+			productReference = 1D6058910D05DD3D006BFB54 /* yaia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "yaia" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* yaia */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* yaia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* MemoryView.xib in Resources */,
+				38AC7F8D1262255C00BEA219 /* DeviceView.xib in Resources */,
+				38AC7F8F1262258800BEA219 /* BatteryView.xib in Resources */,
+				38AC7F92126225BA00BEA219 /* DiskView.xib in Resources */,
+				38AC7F94126225C900BEA219 /* FontsView.xib in Resources */,
+				38AC80C3126242B800BEA219 /* battery.png in Resources */,
+				38AC80C4126242B800BEA219 /* box.png in Resources */,
+				38AC80C5126242B800BEA219 /* chart_bar.png in Resources */,
+				38AC80C6126242B800BEA219 /* clipboard_copy.png in Resources */,
+				38AC80C7126242B800BEA219 /* cog.png in Resources */,
+				38AC80C8126242B800BEA219 /* db.png in Resources */,
+				38AC80C9126242B800BEA219 /* font_italic.png in Resources */,
+				38AC80CA126242B800BEA219 /* info.png in Resources */,
+				38AC80CB126242B800BEA219 /* mail_2.png in Resources */,
+				38AC80CC126242B800BEA219 /* text_letter_t.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* yaiaAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* DeviceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = yaia_Prefix.pch;
+				INFOPLIST_FILE = "yaia-Info.plist";
+				PRODUCT_NAME = yaia;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = yaia_Prefix.pch;
+				INFOPLIST_FILE = "yaia-Info.plist";
+				PRODUCT_NAME = yaia;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "yaia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "yaia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
