@@ -54,17 +54,18 @@
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
 					<int key="IBUIStatusBarStyle">1</int>
 				</object>
-				<object class="IBUIViewController" key="IBUISelectedViewController" id="268481961">
-					<string key="IBUITitle">Memory</string>
-					<object class="IBUITabBarItem" key="IBUITabBarItem" id="807309489">
-						<string key="IBUITitle">Memory</string>
+				<object class="IBUIViewController" key="IBUISelectedViewController" id="144279491">
+					<string key="IBUITitle">About</string>
+					<object class="IBUITabBarItem" key="IBUITabBarItem" id="934435851">
+						<string key="IBUITitle">About</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">chart_bar.png</string>
+							<string key="NSResourceName">info.png</string>
 						</object>
 					</object>
+					<reference key="IBUIToolbarItems" ref="0"/>
 					<reference key="IBUIParentViewController" ref="1034742383"/>
-					<string key="IBUINibName">MemoryView</string>
+					<string key="IBUINibName">AboutView</string>
 				</object>
 				<object class="NSMutableArray" key="IBUIViewControllers">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -80,7 +81,18 @@
 						<reference key="IBUIParentViewController" ref="1034742383"/>
 						<string key="IBUINibName">DeviceView</string>
 					</object>
-					<reference ref="268481961"/>
+					<object class="IBUIViewController" id="268481961">
+						<string key="IBUITitle">Memory</string>
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="807309489">
+							<string key="IBUITitle">Memory</string>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">chart_bar.png</string>
+							</object>
+						</object>
+						<reference key="IBUIParentViewController" ref="1034742383"/>
+						<string key="IBUINibName">MemoryView</string>
+					</object>
 					<object class="IBUIViewController" id="923175665">
 						<string key="IBUITitle">Battery</string>
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="199270534">
@@ -107,6 +119,19 @@
 						<reference key="IBUIParentViewController" ref="1034742383"/>
 						<string key="IBUINibName">DiskView</string>
 					</object>
+					<object class="IBUIViewController" id="981163435">
+						<string key="IBUITitle">Network</string>
+						<object class="IBUITabBarItem" key="IBUITabBarItem" id="496229417">
+							<string key="IBUITitle">Network</string>
+							<object class="NSCustomResource" key="IBUIImage">
+								<string key="NSClassName">NSImage</string>
+								<string key="NSResourceName">network.png</string>
+							</object>
+						</object>
+						<reference key="IBUIToolbarItems" ref="0"/>
+						<reference key="IBUIParentViewController" ref="1034742383"/>
+						<string key="IBUINibName">NetworkView</string>
+					</object>
 					<object class="IBUIViewController" id="322250475">
 						<string key="IBUITitle">Fonts</string>
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="301790850">
@@ -120,6 +145,7 @@
 						<reference key="IBUIParentViewController" ref="1034742383"/>
 						<string key="IBUINibName">FontsView</string>
 					</object>
+					<reference ref="144279491"/>
 				</object>
 				<object class="IBUITabBar" key="IBUITabBar" id="795333663">
 					<nil key="NSNextResponder"/>
@@ -200,6 +226,8 @@
 							<reference ref="923175665"/>
 							<reference ref="134063730"/>
 							<reference ref="322250475"/>
+							<reference ref="144279491"/>
+							<reference ref="981163435"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -283,6 +311,34 @@
 						<reference key="object" ref="301790850"/>
 						<reference key="parent" ref="322250475"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">130</int>
+						<reference key="object" ref="144279491"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="934435851"/>
+						</object>
+						<reference key="parent" ref="1034742383"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">131</int>
+						<reference key="object" ref="934435851"/>
+						<reference key="parent" ref="144279491"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">132</int>
+						<reference key="object" ref="981163435"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="496229417"/>
+						</object>
+						<reference key="parent" ref="1034742383"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">133</int>
+						<reference key="object" ref="496229417"/>
+						<reference key="parent" ref="981163435"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -346,7 +402,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">129</int>
+			<int key="maxID">133</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
